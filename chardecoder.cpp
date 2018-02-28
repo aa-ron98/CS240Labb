@@ -270,6 +270,7 @@ unsigned char dgiUTF8decoder_t::getNextChar(istream & in)
            static_cast<unsigned char>(32);
       break;
   }
+  //The program is almost done!!!
   return uc;
 }
 
